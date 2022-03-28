@@ -1,0 +1,21 @@
+.hamburger-icon {
+    background-image: url("/assets/icons/bars-solid.svgs");
+    display:inline-block;
+    width:1.5em;
+    height:1.5em;
+    vertical-align:middle;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%
+}
+
+.hamburger-icon.hidden {
+    background-image: url("");
+    display:inline-block;
+    width:1.5em;
+    height:1.5em;
+    vertical-align:middle;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%
+}
