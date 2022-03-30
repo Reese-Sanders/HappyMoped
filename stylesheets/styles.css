@@ -1,5 +1,5 @@
-.hamburger-icon {
-    background-image: url("/assets/icons/bars-solid.svgs");
+.hamburger-icon img {
+    src: url("/assets/icons/bars-solid.svg");
     display:inline-block;
     width:1.5em;
     height:1.5em;
@@ -9,7 +9,22 @@
     background-size:100%
 }
 
-.hamburger-icon.hidden {
+.hidden {
+    display: none !important;
+}
+
+.close-icon {
+    background-image: url("assets/icons/x-solid.svg");
+    display:inline-block;
+    width:1.5em;
+    height:1.5em;
+    vertical-align:middle;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%
+}
+
+.close-icon.hidden {
     background-image: url("");
     display:inline-block;
     width:1.5em;
